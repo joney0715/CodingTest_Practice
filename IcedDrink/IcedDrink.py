@@ -4,12 +4,11 @@ import random
 
 ice = []
 ice_y = []
-for i in range(500):
-    for j in range(500):
+for i in range(100):
+    for j in range(100):
         num = random.randint(0,1)
         ice_y.append(num)
     ice.append(ice_y)
-
 #ice = [[0,0,1,1,0],[0,0,0,1,1],[1,1,1,1,1],[0,0,0,0,0]]
 
 def solution(ice):
