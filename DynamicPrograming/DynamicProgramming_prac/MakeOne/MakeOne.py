@@ -1,3 +1,5 @@
+#이거 틀림
+
 
 import math
 import time 
@@ -5,7 +7,7 @@ import random
 
 N = 10
 #X = random.randint(0,N)
-X = 300000
+X = 13
 def solution(X):
     i = 0
     x = 1
