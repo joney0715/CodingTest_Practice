@@ -1,17 +1,10 @@
 
-#N = int(input())
+N = int(input())
 n = 1001
 LH = [0] * n
-# for i in range(N):
-#     l, h = map(int, input().split())
-#     LH[l] = h
-LH[2] = 4
-LH[11] = 4
-LH[15] = 8
-LH[4] = 6
-LH[5] = 3
-LH[8] = 10
-LH[13] = 6
+for i in range(N):
+    l, h = map(int, input().split())
+    LH[l] = h
 
 H_max = max(LH)
 id_max = 0
